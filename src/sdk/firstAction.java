@@ -20,6 +20,10 @@ import de.odysseus.staxon.xml.util.PrettyXMLEventWriter;
 
 public class firstAction {
 	
+	
+	public static String xml2json1(String json){
+		return json;  
+	}
 	 public static String json2xml(String json){  
 	        StringReader input = new StringReader(json);  
 	        StringWriter output = new StringWriter();  
